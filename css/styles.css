@@ -1,0 +1,68 @@
+/* Color Pallet 
+
+Main purple: #4B1043;
+Light pink: #D934C3;
+Peach:  #e7cfcc;
+Yellow: #F0D45D;
+Cyan: #27A39A;
+Font: Archivo (weights 100, 400, 500, 900)
+
+*/
+*{
+    font-family: 'Archivo';
+}
+h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+body{
+    background-color:#8FADF2
+}
+
+/* Sections  */
+.container-fluid{
+    text-align: center;
+    padding: 3% 7%;
+}
+
+
+/* title section */
+
+.title h1{
+    font-size: 4em;
+}
+
+
+/* body section */
+
+#body-section {
+    background-color:#4679F0;
+    text-align: center;
+}
+#body-section h2{
+    color:white;
+}
+
+.body-text{
+    margin-top: 10px;
+    color: #a1b6e7;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 75%;
+}
+.body-icon{
+    margin-bottom: 15px;
+}
+
+/* footer section */
+.footer-text{
+    text-align: center;
+    font-size: 1em;
+    display: inline-block;
+    width: 40%;
+    color: #ffffff;
+}
+
+i{
+    margin-right: 10px;
+    color: white;
+}
