@@ -66,3 +66,55 @@ i{
     margin-right: 10px;
     color: white;
 }
+/* synth section */
+#synth-section {
+    background-color: #365fc0;
+}
+
+.synth-intro {
+    color: #d4deff;
+    margin-bottom: 20px;
+}
+
+.synth-panel {
+    background-color: #274a9f;
+    border-radius: 16px;
+    padding: 24px;
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.synth-controls {
+    text-align: left;
+}
+
+.control-block {
+    margin-bottom: 16px;
+}
+
+.control-block label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.synth-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#midi-file {
+    max-width: 280px;
+    color: #fff;
+}
+
+.midi-status {
+    margin-top: 14px;
+    color: #d4deff;
+    font-size: 1rem;
+}
